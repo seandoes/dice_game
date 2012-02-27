@@ -1,6 +1,5 @@
 var diceRoll = function()
 {
-    var diceNumber; 
-    diceNumber = Math.floor(Math.random()*6+1);
-    alert(diceNumber);
+    var diceNumber = Math.floor(Math.random()*6+1);
+    document.getElementById("number").innerHTML = diceNumber ;
 };
